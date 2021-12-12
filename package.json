@@ -1,0 +1,19 @@
+{
+  "name": "sample-code-only",
+  "version": "1.0.0",
+  "description": "sample code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ar-rohman/sample-code-only.git"
+  },
+  "author": "rohman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ar-rohman/sample-code-only/issues"
+  },
+  "homepage": "https://github.com/ar-rohman/sample-code-only#readme"
+}

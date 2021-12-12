@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            margin: 5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        input, .result {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <label for="input">Masukan kalimat yang akan diacak</label>
+        <input type="text" name="input" id="input" placeholder="input kalimat" />
+        <button id="generate">Generate</button>
+        <div class="result" id="result"></div>
+    </div>
+    <script src="js/random.js"></script>
+</body>
+</html>

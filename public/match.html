@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            margin: 5rem;
+            display: flex;
+            flex-direction: column;
+        }
+        input, .result {
+            margin: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div id="frasa">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt impedit perferendis alias non consequatur voluptatem</div>
+        <label for="input">input</label>
+        <input type="text" name="input" id="input" placeholder="input kalimat" />
+        <button id="cek">Cek</button>
+        <span style="margin-top: 1rem;">Result
+            <div class="result" id="result"></div>
+        </span>
+    </div>
+    <script src="js/match.js"></script>
+</body>
+</html>
